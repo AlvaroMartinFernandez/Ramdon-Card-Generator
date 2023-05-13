@@ -5,7 +5,9 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+import table from "./components/tablero.js";
+import card from "./components/card.js";
+import { deck, SUIT, CARD, ramdomCard } from "./utils/randomcard.js";
+table();
+card();
+window.onload = function() {};
